@@ -47,6 +47,7 @@
  }
 </style>
 </head>
+
 <body>
   <div id ="target">
     <div id="outer-circle">
@@ -57,6 +58,6 @@
     </div>
   </div>
 </body>
-</html>
 
 </html>
+
