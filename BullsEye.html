@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+#target{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#outer-circle {
+   background: #ff0000;
+   border-radius: 50%;
+   height: 500px;
+   width: 500px;
+   position: relative;
+ }
+ 
+ #inner-circle {
+   position: absolute;
+   background: #ffffff;
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   top: 50%;
+   left: 50%;
+   margin: -150px 0px 0px -150px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+ }  
+    
+#center-circle {
+   position: absolute;
+   background: #ff0000;
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   top: 50%;
+   left: 50%;
+   margin: -50px 0px 0px -50px;
+    /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+ }
+</style>
+</head>
+<body>
+  <div id ="target">
+    <div id="outer-circle">
+      <div id="inner-circle">
+          <div id="center-circle">
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+</html>

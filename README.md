@@ -1,2 +1,0 @@
-# BullsEye
-target logo 
